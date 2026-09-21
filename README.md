@@ -2,7 +2,7 @@
 
 A modern Vue 3 application showcasing the MedVoice AI project - an AI-powered speech recognition and intelligent medical assistance platform.
 
-## 🌐 Live Demo
+## Live Demo
 
 Visit the live website: [http://localhost:5173](http://localhost:5173)
 Try the interactive demo: [http://localhost:5173/demo](http://localhost:5173/demo)
@@ -53,7 +53,7 @@ medvoice-ai/
 └── package.json       # Project metadata
 ```
 
-## 🌍 Languages Supported
+## Languages Supported
 
 - 🇺🇸 **English** - Primary language
 - 🇺🇿 **O'zbekcha** - Uzbek language support
@@ -66,7 +66,7 @@ medvoice-ai/
 - **Muhammad** - Backend Developer
 - **Akobir** - Frontend Developer
 
-## 🚀 Local Development
+## Local Development
 
 1. Clone the repository
 2. Open `index.html` in a browser or serve with a local server:
@@ -77,7 +77,7 @@ medvoice-ai/
    npx serve .
    ```
 
-## 📦 Deployment
+## Deployment
 
 This project is optimized for Vercel deployment with:
 
@@ -86,6 +86,6 @@ This project is optimized for Vercel deployment with:
 - Proper content headers
 - Mobile-responsive design
 
-## 📄 License
+## License
 
 MIT License - feel free to use for your own hackathon projects!
