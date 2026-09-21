@@ -7,7 +7,7 @@ A modern Vue 3 application showcasing the MedVoice AI project - an AI-powered sp
 Visit the live website: [http://localhost:5173](http://localhost:5173)
 Try the interactive demo: [http://localhost:5173/demo](http://localhost:5173/demo)
 
-## ✅ Recent Updates
+## Recent Updates
 
 This project has been migrated from a static HTML/CSS/JS website to a modern Vue 3 application with:
 
@@ -18,7 +18,7 @@ This project has been migrated from a static HTML/CSS/JS website to a modern Vue
 5. **Interactive Demo**: Voice recording simulation page
 6. **Responsive Design**: Mobile-first design with modern utilities
 
-## 🚀 Features
+## Features
 
 - **Multilingual Support**: English, Uzbek, and Russian with vue-i18n
 - **Responsive Design**: Mobile-first with Tailwind CSS
@@ -27,7 +27,7 @@ This project has been migrated from a static HTML/CSS/JS website to a modern Vue
 - **Interactive Demo**: Voice recording simulation
 - **Complete Sections**: All original HTML sections included
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Vue 3 with Composition API
 - TypeScript  
@@ -36,7 +36,7 @@ This project has been migrated from a static HTML/CSS/JS website to a modern Vue
 - Font Awesome icons
 - Inter font family
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 medvoice-ai/
@@ -59,9 +59,9 @@ medvoice-ai/
 - 🇺🇿 **O'zbekcha** - Uzbek language support
 - 🇷🇺 **Русский** - Russian language support
 
-## 👥 Team
+## Team
 
-- **Furqat** - Team Lead & Full-Stack Developer
+- **Furqat** - Team Lead & Art Director
 - **Islombek** - AI/ML Engineer
 - **Muhammad** - Backend Developer
 - **Akobir** - Frontend Developer
