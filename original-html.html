@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedVoice AI - Real-Time Doctor Speech Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <span data-key="brand">MedVoice AI</span>
+      </div>
+      <div class="nav-right">
+        <ul class="nav-menu">
+          <li><a href="#problem" data-key="nav-problem">Problem</a></li>
+          <li><a href="#benefits" data-key="nav-benefits">Benefits</a></li>
+          <li><a href="#team" data-key="nav-team">Team</a></li>
+          <li><a href="#strengths" data-key="nav-strengths">Strengths</a></li>
+          <li><a href="#roadmap" data-key="nav-roadmap">Roadmap</a></li>
+          <li><a href="#solution" data-key="nav-solution">Solution</a></li>
+        </ul>
+        <div class="language-selector">
+          <button class="lang-btn active" data-lang="en" title="English">
+            🇺🇸
+          </button>
+          <button class="lang-btn" data-lang="uz" title="O'zbekcha">
+            🇺🇿
+          </button>
+          <button class="lang-btn" data-lang="ru" title="Русский">
+            🇷🇺
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 data-key="brand">MedVoice AI</h1>
+        <p class="hero-subtitle" data-key="hero-subtitle">Real-Time Doctor Speech Assistant</p>
+        <p class="hero-description" data-key="hero-description">Revolutionizing healthcare documentation and diagnosis
+          with AI-powered speech
+          recognition and intelligent medical assistance</p>
+        <div class="hero-buttons">
+          <a href="#problem" class="btn btn-primary" data-key="hero-btn-learn">Learn More</a>
+          <a href="#solution" class="btn btn-secondary" data-key="hero-btn-solution">View Solution</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="medical-icon">
+          <i class="fas fa-stethoscope"></i>
+          <i class="fas fa-microphone"></i>
+          <i class="fas fa-brain"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem & Solution Section -->
+  <section id="problem" class="problem-solution">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-key="section-problem-title">Problem & Solution</h2>
+        <p data-key="section-problem-desc">Addressing critical challenges in modern healthcare</p>
+      </div>
+
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-header">
+            <i class="fas fa-exclamation-triangle"></i>
+            <h3 data-key="problem-title">The Problem</h3>
+          </div>
+          <div class="problem-content">
+            <div class="problem-item">
+              <h4><i class="fas fa-clock"></i> <span data-key="problem-admin-title">High Administrative Load</span></h4>
+              <p data-key="problem-admin-desc">Doctors spend up to 40% of their time on documentation, reducing time
+                available for patient care and
+                diagnosis.</p>
+            </div>
+            <div class="problem-item">
+              <h4><i class="fas fa-exclamation-circle"></i> <span data-key="problem-diagnostic-title">Inconsistent
+                  Diagnostics</span></h4>
+              <p data-key="problem-diagnostic-desc">Risk of human error and missed symptoms due to fatigue, workload,
+                and time constraints.</p>
+            </div>
+            <div class="problem-item">
+              <h4><i class="fas fa-pills"></i> <span data-key="problem-medicine-title">Lack of Medicine Control</span>
+              </h4>
+              <p data-key="problem-medicine-desc">Difficulty in monitoring prescribed medications, ensuring protocol
+                compliance, and preventing
+                over-prescription.</p>
+            </div>
+          </div>
+          <div class="domain-tag">
+            <span data-key="domain-tag">Healthcare Technology</span>
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-header">
+            <i class="fas fa-lightbulb"></i>
+            <h3 data-key="solution-title">Our Solution</h3>
+          </div>
+          <div class="solution-content">
+            <h4 data-key="solution-subtitle">MedVoice AI - Speech-to-Diagnosis Assistant</h4>
+            <ul class="solution-features">
+              <li><i class="fas fa-microphone"></i> <span data-key="solution-feature-1">Real-time speech-to-text medical
+                  transcription</span></li>
+              <li><i class="fas fa-brain"></i> <span data-key="solution-feature-2">AI-powered diagnostic
+                  suggestions</span></li>
+              <li><i class="fas fa-user-md"></i> <span data-key="solution-feature-3">Doctor customization and approval
+                  workflow</span></li>
+              <li><i class="fas fa-shield-alt"></i> <span data-key="solution-feature-4">Medication control and audit
+                  module</span></li>
+            </ul>
+            <div class="impact-metrics">
+              <div class="metric">
+                <span class="metric-value">60%</span>
+                <span class="metric-label" data-key="metric-doc-reduction">Reduction in documentation time</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">40%</span>
+                <span class="metric-label" data-key="metric-diagnostic-improvement">Improvement in diagnostic
+                  accuracy</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">100%</span>
+                <span class="metric-label" data-key="metric-prescription-transparency">Prescription transparency</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Benefits Section -->
+  <section id="benefits" class="benefits">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-key="benefits-title">Key Benefits</h2>
+        <p data-key="benefits-desc">Transforming healthcare for all stakeholders</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-category">
+          <div class="category-header">
+            <i class="fas fa-user-md"></i>
+            <h3 data-key="benefits-doctors-title">For Doctors</h3>
+          </div>
+          <div class="benefit-list">
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-doctors-workload">Reduces administrative workload</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-doctors-mistakes">Fewer mistakes in diagnosis</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-doctors-processing">Faster patient processing</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-doctors-notes">Auto-generated medical notes</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-doctors-selection">Easy selection of diagnosis & prescriptions</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit-category">
+          <div class="category-header">
+            <i class="fas fa-hospital"></i>
+            <h3 data-key="benefits-hospitals-title">For Hospitals</h3>
+          </div>
+          <div class="benefit-list">
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-hospitals-transparency">Transparent medicine usage</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-hospitals-control">Control over treatment protocols</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-hospitals-costs">Lower operational costs</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-hospitals-efficiency">Increased efficiency</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-hospitals-outcomes">Better patient outcomes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit-category">
+          <div class="category-header">
+            <i class="fas fa-university"></i>
+            <h3 data-key="benefits-government-title">For Government / Insurance</h3>
+          </div>
+          <div class="benefit-list">
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-government-fraud">Control over fraud</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-government-statistics">Reliable statistics</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-government-planning">Better planning of medicine supply</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-government-prevention">Prevention of over-prescription</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit-category">
+          <div class="category-header">
+            <i class="fas fa-users"></i>
+            <h3 data-key="benefits-patients-title">For Patients</h3>
+          </div>
+          <div class="benefit-list">
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-patients-quality">Higher quality of diagnosis</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-patients-service">Faster service</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check"></i>
+              <span data-key="benefits-patients-consistency">Consistent treatment across clinics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-key="team-title">Meet Our Team</h2>
+        <p data-key="team-desc">Experienced professionals united by a vision to transform healthcare</p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-header">
+            <div class="member-avatar">
+              <img src="/img/furqat.jpeg" alt="Furqat Qobilov">
+            </div>
+            <div class="member-basic-info">
+              <h3>Furqat Qobilov</h3>
+              <p class="member-role">Art Director</p>
+            </div>
+          </div>
+          <div class="member-details">
+            <div class="member-skills">
+              <span class="skill">UI/UX Design</span>
+              <span class="skill">Figma</span>
+              <span class="skill">Design Systems</span>
+              <span class="skill">Accessibility</span>
+            </div>
+            <p class="member-description">Creative art director specializing in healthcare interface design. Focus on
+              user-centered design and accessibility standards for medical professionals.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/furkat-kobilov-6277ba257/" title="LinkedIn"><i
+                  class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-header">
+            <div class="member-avatar">
+              <img src="/img/islombek.JPG" alt="Islombek Salimov">
+            </div>
+            <div class="member-basic-info">
+              <h3>Islombek Salimov</h3>
+              <p class="member-role">Lead Developer</p>
+            </div>
+          </div>
+          <div class="member-details">
+            <div class="member-skills">
+              <span class="skill">JavaScript</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">AI/ML</span>
+            </div>
+            <p class="member-description">Expert JavaScript engineer with 5+ years in full-stack development and AI
+              integration. Specializes in real-time applications and healthcare technology.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/islombek-salimov-ab5aa4154/" title="LinkedIn"><i
+                  class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/mj11rock" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://t.me/islombe_dev" title="Telegram channel"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-header">
+            <div class="member-avatar">
+              <img src="/img/muhammad.jpg" alt="Muhammad Farmonov">
+            </div>
+            <div class="member-basic-info">
+              <h3>Muhammad Farmonov</h3>
+              <p class="member-role" data-key="member-role-product-strategy">Head of Product Strategy</p>
+            </div>
+          </div>
+          <div class="member-details">
+            <div class="member-skills">
+              <span class="skill">Product Management</span>
+              <span class="skill">Agile</span>
+              <span class="skill">Healthcare</span>
+              <span class="skill">Strategy</span>
+            </div>
+            <p class="member-description" data-key="member-desc-muhammad">Experienced product manager with deep
+              understanding of healthcare workflows
+              and regulatory requirements. Drives strategic vision and stakeholder alignment.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/muhammad-farmonov/" title="LinkedIn"><i
+                  class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-header">
+            <div class="member-avatar">
+              <img src="/img/akobir.jpg" alt="Akobir Abduganiev">
+            </div>
+            <div class="member-basic-info">
+              <h3>Akobir Abduganiev</h3>
+              <p class="member-role" data-key="member-role-senior-developer">Senior Developer</p>
+            </div>
+          </div>
+          <div class="member-details">
+            <div class="member-skills">
+              <span class="skill">Java</span>
+              <span class="skill">Spring Boot</span>
+              <span class="skill">Microservices</span>
+              <span class="skill">Cloud</span>
+            </div>
+            <p class="member-description" data-key="member-desc-akobir">Senior Java developer with expertise in
+              enterprise applications and
+              microservices architecture. Strong background in healthcare system integration.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/akobir-abduganiev/" title="LinkedIn"><i
+                  class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/akobirabduganiev" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://t.me/akobirabduganiev" title="Telegram channel"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Strengths Section -->
+  <section id="strengths" class="strengths">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-key="strengths-title">Why Our Team Can Solve This</h2>
+        <p data-key="strengths-desc">Unique combination of technical expertise and healthcare domain knowledge</p>
+      </div>
+
+      <div class="strengths-grid">
+        <div class="strength-card">
+          <div class="strength-icon">
+            <i class="fas fa-hospital"></i>
+          </div>
+          <h3 data-key="strength-healthcare-title">Healthcare Experience</h3>
+          <p data-key="strength-healthcare-desc">Our team has worked on 3+ healthcare technology projects, including EHR
+            systems and telemedicine platforms.
+            We understand medical workflows and regulatory requirements.</p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3 data-key="strength-ai-title">AI & ML Expertise</h3>
+          <p data-key="strength-ai-desc">Deep experience with speech recognition, NLP, and machine learning. We've
+            implemented voice-to-text
+            solutions and medical data processing systems.</p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 data-key="strength-security-title">Security & Compliance</h3>
+          <p data-key="strength-security-desc">Extensive knowledge of HIPAA, GDPR, and medical data protection
+            standards. Our previous projects maintained
+            99.9% security compliance.</p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 data-key="strength-design-title">User-Centered Design</h3>
+          <p data-key="strength-design-desc">Strong focus on creating intuitive interfaces for medical professionals.
+            Our designs reduce training time
+            and improve adoption rates.</p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 data-key="strength-scalable-title">Scalable Architecture</h3>
+          <p data-key="strength-scalable-desc">Proven track record of building systems that handle thousands of
+            concurrent users. Our microservices
+            approach ensures reliability and performance.</p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3 data-key="strength-mission-title">Mission-Driven Team</h3>
+          <p data-key="strength-mission-desc">Personal motivation to improve healthcare outcomes. Our team is committed
+            to creating technology that saves
+            lives and improves patient care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section id="roadmap" class="roadmap">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-key="roadmap-title">Roadmap & Current Stage</h2>
+        <p data-key="roadmap-desc">Clear development plan with realistic milestones</p>
+      </div>
+
+      <div class="current-stage">
+        <div class="stage-indicator">
+          <div class="stage-item completed">
+            <span data-key="stage-idea">Idea</span>
+          </div>
+          <div class="stage-item current">
+            <span data-key="stage-prototype">Prototype</span>
+          </div>
+          <div class="stage-item">
+            <span data-key="stage-mvp">MVP</span>
+          </div>
+          <div class="stage-item">
+            <span data-key="stage-launched">Launched</span>
+          </div>
+        </div>
+        <div class="stage-description">
+          <h3 data-key="current-stage-title">Current Stage: Prototype</h3>
+          <p data-key="current-stage-desc">We have completed initial research and are building a working prototype with
+            core speech recognition and AI
+            diagnostic features.</p>
+        </div>
+      </div>
+
+      <div class="roadmap-timeline">
+        <div class="timeline-item completed">
+          <div class="timeline-date">Week 1-2</div>
+          <div class="timeline-content">
+            <h4 data-key="timeline-research-title">Research & Planning</h4>
+            <ul>
+              <li data-key="timeline-research-item-1">Market research and competitor analysis</li>
+              <li data-key="timeline-research-item-2">Technology stack selection</li>
+              <li data-key="timeline-research-item-3">Architecture design</li>
+              <li data-key="timeline-research-item-4">User interviews with doctors</li>
+            </ul>
+            <div class="timeline-status" data-key="timeline-status-completed">✅ Completed</div>
+          </div>
+        </div>
+
+        <div class="timeline-item current">
+          <div class="timeline-date">Week 3-4</div>
+          <div class="timeline-content">
+            <h4 data-key="timeline-prototype-title">Prototype Development</h4>
+            <ul>
+              <li data-key="timeline-prototype-item-1">Basic speech-to-text implementation</li>
+              <li data-key="timeline-prototype-item-2">Medical vocabulary training</li>
+              <li data-key="timeline-prototype-item-3">Simple AI diagnostic suggestions</li>
+              <li data-key="timeline-prototype-item-4">Basic doctor dashboard</li>
+            </ul>
+            <div class="timeline-status" data-key="timeline-status-progress">🔄 In Progress</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Week 5-8</div>
+          <div class="timeline-content">
+            <h4 data-key="timeline-mvp-title">MVP Development</h4>
+            <ul>
+              <li data-key="timeline-mvp-item-1">Enhanced AI diagnostic engine</li>
+              <li data-key="timeline-mvp-item-2">Medication control module</li>
+              <li data-key="timeline-mvp-item-3">Admin dashboard</li>
+              <li data-key="timeline-mvp-item-4">Integration testing</li>
+            </ul>
+            <div class="timeline-status" data-key="timeline-status-planned">📅 Planned</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Week 9-12</div>
+          <div class="timeline-content">
+            <h4 data-key="timeline-pilot-title">Pilot Launch</h4>
+            <ul>
+              <li data-key="timeline-pilot-item-1">Beta testing with partner clinics</li>
+              <li data-key="timeline-pilot-item-2">User feedback integration</li>
+              <li data-key="timeline-pilot-item-3">Performance optimization</li>
+              <li data-key="timeline-pilot-item-4">Security audit and compliance</li>
+            </ul>
+            <div class="timeline-status" data-key="timeline-status-planned">📅 Planned</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-steps">
+        <h3 data-key="next-steps-title">Immediate Next Steps (Next 2 Weeks)</h3>
+        <div class="steps-grid">
+          <div class="step-item">
+            <i class="fas fa-microphone"></i>
+            <h4 data-key="step-speech-title">Complete Speech Engine</h4>
+            <p data-key="step-speech-desc">Finalize medical vocabulary and improve transcription accuracy to 95%+</p>
+          </div>
+          <div class="step-item">
+            <i class="fas fa-brain"></i>
+            <h4 data-key="step-ai-title">AI Model Training</h4>
+            <p data-key="step-ai-desc">Train diagnostic suggestion model on ICD-10 and medical protocols</p>
+          </div>
+          <div class="step-item">
+            <i class="fas fa-desktop"></i>
+            <h4 data-key="step-dashboard-title">Doctor Dashboard</h4>
+            <p data-key="step-dashboard-desc">Build intuitive interface for reviewing and editing transcriptions</p>
+          </div>
+          <div class="step-item">
+            <i class="fas fa-hospital-user"></i>
+            <h4 data-key="step-clinic-title">Clinic Partnership</h4>
+            <p data-key="step-clinic-desc">Secure agreement with local clinic for prototype testing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Approach Section -->
+  <section id="solution" class="solution-approach">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-key="solution-approach-title">How We Plan to Solve It</h2>
+        <p data-key="solution-approach-desc">Comprehensive technical approach leveraging cutting-edge AI technologies
+        </p>
+      </div>
+
+      <div class="approach-grid">
+        <div class="approach-section">
+          <h3><i class="fas fa-route"></i> <span data-key="key-steps-title">Key Steps</span></h3>
+          <div class="steps-list">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Speech Recognition Engine</h4>
+                <p>Implement real-time speech-to-text with medical vocabulary optimization using Whisper API and custom
+                  medical corpus training.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Medical NLP Processing</h4>
+                <p>Extract symptoms, diagnoses, and prescriptions from transcribed text using spaCy and custom medical
+                  entity recognition models.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>AI Diagnostic Engine</h4>
+                <p>Develop diagnostic suggestion system using fine-tuned language models trained on ICD-10, medical
+                  protocols, and case studies.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Control & Audit System</h4>
+                <p>Implement medication tracking and anomaly detection using rule-based systems and machine learning
+                  algorithms.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h4>Integration & Deployment</h4>
+                <p>Deploy secure, scalable system with EHR integration, real-time processing, and comprehensive
+                  monitoring.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="approach-section">
+          <h3><i class="fas fa-tools"></i> <span data-key="tech-stack-title">Technology Stack</span></h3>
+          <div class="tech-categories">
+            <div class="tech-category">
+              <h4>Frontend</h4>
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">WebRTC</span>
+              </div>
+            </div>
+            <div class="tech-category">
+              <h4>Backend</h4>
+              <div class="tech-tags">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Java Spring</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+              </div>
+            </div>
+            <div class="tech-category">
+              <h4>AI/ML</h4>
+              <div class="tech-tags">
+                <span class="tech-tag">OpenAI Whisper</span>
+                <span class="tech-tag">spaCy</span>
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">PyTorch</span>
+              </div>
+            </div>
+            <div class="tech-category">
+              <h4>Infrastructure</h4>
+              <div class="tech-tags">
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">WebSocket</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="approach-section full-width">
+          <h3><i class="fas fa-brain"></i> <span data-key="ai-implementation-title">AI Technology Implementation</span>
+          </h3>
+          <div class="ai-features">
+            <div class="ai-feature">
+              <div class="ai-icon">
+                <i class="fas fa-microphone-alt"></i>
+              </div>
+              <h4>Real-Time Speech Processing</h4>
+              <p>Implementing streaming speech recognition with medical vocabulary adaptation. Using WebRTC for
+                real-time audio capture and processing with low latency.</p>
+              <div class="ai-tech">
+                <strong>Technologies:</strong> OpenAI Whisper API, WebRTC, custom medical corpus
+              </div>
+            </div>
+
+            <div class="ai-feature">
+              <div class="ai-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <h4>Medical Entity Recognition</h4>
+              <p>Advanced NLP for extracting medical entities (symptoms, diseases, medications) from unstructured
+                conversation text with 95%+ accuracy.</p>
+              <div class="ai-tech">
+                <strong>Technologies:</strong> spaCy, BERT, custom medical NER models
+              </div>
+            </div>
+
+            <div class="ai-feature">
+              <div class="ai-icon">
+                <i class="fas fa-stethoscope"></i>
+              </div>
+              <h4>Diagnostic Intelligence</h4>
+              <p>AI system trained on medical protocols and case databases to suggest diagnoses, recommend tests, and
+                flag potential issues.</p>
+              <div class="ai-tech">
+                <strong>Technologies:</strong> Fine-tuned GPT models, medical knowledge graphs, ICD-10 integration
+              </div>
+            </div>
+
+            <div class="ai-feature">
+              <div class="ai-icon">
+                <i class="fas fa-shield-virus"></i>
+              </div>
+              <h4>Anomaly Detection</h4>
+              <p>Machine learning algorithms to detect unusual prescription patterns, potential fraud, and deviations
+                from medical protocols.</p>
+              <div class="ai-tech">
+                <strong>Technologies:</strong> Isolation Forest, clustering algorithms, rule-based systems
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="system-architecture">
+        <h3><i class="fas fa-sitemap"></i> System Architecture Overview</h3>
+        <div class="architecture-layers">
+          <div class="arch-layer-card">
+            <div class="layer-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="layer-content">
+              <h4>Presentation Layer</h4>
+              <p class="layer-description">User interfaces and client applications</p>
+              <div class="arch-components">
+                <div class="arch-component">
+                  <i class="fas fa-user-md"></i>
+                  <span>Doctor Dashboard</span>
+                </div>
+                <div class="arch-component">
+                  <i class="fas fa-cogs"></i>
+                  <span>Admin Portal</span>
+                </div>
+                <div class="arch-component">
+                  <i class="fas fa-mobile-alt"></i>
+                  <span>Mobile App</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="arch-layer-card">
+            <div class="layer-icon">
+              <i class="fas fa-microchip"></i>
+            </div>
+            <div class="layer-content">
+              <h4>Application Layer</h4>
+              <p class="layer-description">Core processing and business logic</p>
+              <div class="arch-components">
+                <div class="arch-component">
+                  <i class="fas fa-microphone"></i>
+                  <span>Speech Processing</span>
+                </div>
+                <div class="arch-component">
+                  <i class="fas fa-brain"></i>
+                  <span>AI Diagnostics</span>
+                </div>
+                <div class="arch-component">
+                  <i class="fas fa-shield-alt"></i>
+                  <span>Control Module</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="arch-layer-card">
+            <div class="layer-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="layer-content">
+              <h4>Data Layer</h4>
+              <p class="layer-description">Data storage and management</p>
+              <div class="arch-components">
+                <div class="arch-component">
+                  <i class="fas fa-hospital"></i>
+                  <span>Medical Database</span>
+                </div>
+                <div class="arch-component">
+                  <i class="fas fa-volume-up"></i>
+                  <span>Audio Storage</span>
+                </div>
+                <div class="arch-component">
+                  <i class="fas fa-clipboard-list"></i>
+                  <span>Audit Logs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-brand">
+            <span data-key="brand">MedVoice AI</span>
+          </div>
+          <p data-key="footer-tagline">Transforming healthcare with AI-powered speech recognition and intelligent
+            medical assistance.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-key="footer-copyright">&copy; 2025 MedVoice AI Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
